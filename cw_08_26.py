@@ -21,7 +21,7 @@ def checkPassword(string1, string2):
     else:
         return False
 
-
+# !! : this could easily be user input 
 result = checkPassword("I am a superwoman", "I am not a superman")
 print(result)
 
@@ -65,6 +65,7 @@ def main():
 
 
 def second():
+    # !! : this could easily be user input 
     greeting = " Howdy"
     return greeting
 
